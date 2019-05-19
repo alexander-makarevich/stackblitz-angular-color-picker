@@ -6,6 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./color-picker.component.css']
 })
 export class ColorPickerComponent implements OnInit {
+  public readonly defaultColors: string[] = [
+    'black', 'white', 'red', 'orange',
+    'yellow', 'green', 'blue', 'purple'
+  ];
 
   constructor() { }
 
